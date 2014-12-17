@@ -1,0 +1,4 @@
+We used two tables with two combinations of rowkey to build the hbase databse model.
+
+For the first output, we enumerated all user folders and created an identity number for each user in order to make it easier to query later.
+So the compound key is identity number + email address of the sender + message ID in the email. 
